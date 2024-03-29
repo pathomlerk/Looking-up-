@@ -1,0 +1,29 @@
+#home h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:serif ;
+    color: #FB7386;
+}
+
+#home .-tap{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #FB7386;
+    border-radius: 50px 50px 50px 50px;
+    cursor: pointer;
+    color: #f2f2f2;
+    padding: 10px;
+}
+
+#home .-tap:hover{
+    background-color: #d16271;
+    cursor: pointer;
+}
